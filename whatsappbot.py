@@ -26,10 +26,10 @@ wait.until(EC.presence_of_element_located((By.XPATH, '//div[@title="Caixa de tex
 while True:
     # Configuração do banco de dados
     db = mysql.connector.connect(
-        host="192.168.1.141",
-        user="root",
-        password="cbm001",
-        database="cbm_suporte",
+        host="***.***.*.***",
+        user="******",
+        password="******",
+        database="**********",
         ssl_disabled = True
     )
      # Espera 5 segundos antes de verificar novamente
